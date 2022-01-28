@@ -7,12 +7,12 @@
     	String email = (String)request.getAttribute("email");
     %>
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="UTF-8"> 
+<title>Insert title here</title> 
 </head>
-<body>
+<body> 
 	<%
 		request.setAttribute("id","smhrd");
 		request.setAttribute("pw","1234");
@@ -33,7 +33,7 @@
 		<td name="name">이름</td>	
 		<td name="email">이메일</td>	
 	</tr>
-		<tr>
+		<tr> 
 		<td><%=id %></td>	
 		<td><%=pw %></td>	
 		<td><%=name %></td>	
