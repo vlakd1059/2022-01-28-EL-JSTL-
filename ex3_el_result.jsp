@@ -9,10 +9,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8"> 
 <title>Insert title here</title>
-</head>
-<body>
+</head> 
+<body> 
 	<%
 		request.setAttribute("id","smhrd");
 		request.setAttribute("pw","1234");
@@ -45,7 +45,7 @@
 			param객체 == request.getParameter()
 			paramValues객체 == request.getparameterValues() 
 		 --%>
-		 <%-- ${서버영역에 저장된 값의 name값} --%>
+		 <%-- ${서버영역에 저장된 값의 name값} --%> 
 		<td>${id}</td>	
 		<td>${pw }</td>	
 		<td>${name }</td>	
@@ -59,7 +59,7 @@
 			  검색해서 접근하게 된다.
 		--%>
 		<td>${ requestScope.id }</td>	
-		<td>${ requestScope.pw }</td>	
+		<td>${ requestScope.pw }</td>	 
 		<td>${requestScope.name }</td>	
 		<td>${requestScope.email }</td>	
 	</tr>
